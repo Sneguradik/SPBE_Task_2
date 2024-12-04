@@ -49,7 +49,7 @@ async def main(args):
     tickers = await read_tickers_from_csv(args.input)
     print("Fetching data")
     page_data = await page_main(tickers)
-    api_data = await api_main(tickers, os.getenv('Alpha_Vantage_API_Key'))
+    #api_data = await api_main(tickers, os.getenv('Alpha_Vantage_API_Key'))
     print("Data fetched")
     df_page = DataFrame(page_data)
     #df_api = DataFrame(api_data)
