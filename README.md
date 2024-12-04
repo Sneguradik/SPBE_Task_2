@@ -16,8 +16,8 @@
 
 1. **Склонировать репозиторий:**
    ```bash
-   git clone <URL_вашего_репозитория>
-   cd <название_папки_репозитория>
+   git clone https://github.com/Sneguradik/SPBE_Task_2.git
+   cd SPBE_Task_2
 2. **Создать виртуальное окружение:**
     ```bash
     python -m venv .venv
